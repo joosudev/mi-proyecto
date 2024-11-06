@@ -13,7 +13,7 @@ function App() {
   
   return (
     <div className="App">
-      <h1>Mensaje desde el Back End:</h1>
+      <h1>Mensaje desde el Back End 😍:</h1>
       <p>{message}</p>
     </div>
   );
