@@ -5,7 +5,7 @@ export default defineConfig({
   plugins: [react()],
   server: {
     proxy: {
-      '/api': 'http://localhost:3000',  // Redirige las solicitudes de API al backend
+      '/api': 'https://mi-proyecto-zcsv.onrender.com/api',  // Redirige las solicitudes de API al backend
     },
   },
 });

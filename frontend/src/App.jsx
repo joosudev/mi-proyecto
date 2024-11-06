@@ -5,7 +5,7 @@ function App() {
   const [message, setMessage] = useState('');
 
   useEffect(() => {
-    fetch('http://localhost:3000/api')
+    fetch('https://mi-proyecto-zcsv.onrender.com/api')
       .then((res) => res.json())
       .then((data) => setMessage(data.message))
       .catch((err) => console.error('Error fetching data:', err));
